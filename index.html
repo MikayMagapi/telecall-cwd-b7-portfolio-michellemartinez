@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>DFCCI Cabuyao</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="indigo darken-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo"><img src="images/Logo.png" class="responsive-img" width="110"></a>                 
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li class="active">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="join.html">Join Our Family</a>
+                            </li>
+                            <li>
+                                <a href="give.html">Give</a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/DFCCIPuloCabuyaoLaguna">Message Us</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sidenav -->
+    <ul id="slide-out" class="sidenav indigo darken-4"> 
+        <li class="active">
+            <a class="white-text" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="white-text" href="about.html">About</a>
+        </li>
+        <li>
+            <a class="white-text" href="join.html">Join Our Family</a>
+        </li>
+        <li>
+            <a class="white-text" href="give.html">Give</a>
+        </li>
+        <li>
+            <a class="white-text" href="https://www.facebook.com/DFCCIPuloCabuyaoLaguna">Message Us</a>
+        </li>
+    </ul>
+
+    <!-- Cover photo -->
+    <img src="images/Cover.jpg" alt="" class="responsive-img">
+
+    <!-- Our Story -->
+    <section class="section section-story">
+    <div class="container">
+        <div class="row center">
+            <div class="col s12 m6 l6">
+                <h3 class="indigo-text text-darken-3">Our Story</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, voluptatum vitae. Vitae exercitationem natus non voluptates animi dolorum, voluptatibus beatae repellat unde optio repudiandae quis eveniet, ex cumque a nobis.</p>
+                <br><br>
+                <a href="about.html" class="waves-effect waves-light btn indigo btn-small">Read more</a>
+            </div>
+            <div class="col s12 m6 l6">
+                <br><br>
+                <img src="images/story.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+</section>
+
+    
+
+
+    <!-- Footer -->
+    <footer class="page-footer indigo darken-2">
+    <div class="container">
+        <div class="row center">
+            <div class="col s12">
+                <h4 class="red-text text-lighten-3">Location & Service Times</h4>
+                <p class="white-text">Blk. 1 Lot 7 Cadena de Amor St. Villa Adelina II Subd., Brgy. Pulo, Cabuyao City, Laguna Philippines 4025</p>
+            </div>
+    
+            <div class="col s12 m6 l6">
+                <h5 class="red-text text-lighten-3">Weekdays Services:</h5>
+                <p class="white-text">Tuesday | 8:00pm - 9:00pm</p>
+                <p class="white-text">Thursday | 8:00pm - 9:00pm</p>
+            </div>
+    
+            <div class="col s12 m6 l6">
+                <h5 class="red-text text-lighten-3">Sunday Services:</h5>
+                <p class="white-text">1st service | 8:00am - 10:00am</p>
+                <p class="white-text">2nd service | 10:30am - 12:30pm</p>
+                <p class="white-text">Youth service | 3:00pm - 5:00pm</p>
+            </div>
+        </div>
+
+            <div class="divider red lighten-3"></div>
+    </div>
+
+    <div class="row center">
+        <div class="col s12">
+            <h5 class="red-text text-darken-1">Join us</h5>
+            <a href="https://www.facebook.com/DFCCIPuloCabuyaoLaguna" class="material-icons white-text">facebook</a>
+            <a href="https://www.youtube.com/@dfccicabuyao3685/streams" class="material-icons red-text text-darken-4">ondemand_video</a>
+            <a href="mailto:dfccicabuyao@gmail.com" class="material-icons grey-text text-lighten-2">email</a>
+        </div>
+    </div>
+
+    <div class="footer-copyright indigo">
+        <div class="container">
+        © Copyright DFCCI Cabuyao 2022
+        <a class="grey-text text-lighten-4 right" href="index.html">Home</a>
+        </div>
+    </div>
+    </footer>
+
+
+    <!-- CDN JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav({
+        edge: 'right',
+        }
+        );
+    });
+    </script>
+
+</body>
+
+</html>
